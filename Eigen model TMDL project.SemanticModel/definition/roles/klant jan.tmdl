@@ -1,0 +1,5 @@
+role 'klant jan'
+	modelPermission: read
+
+	annotation PBI_Id = 452196590eec46c8b924669932c0b4e9
+

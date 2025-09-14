@@ -1,0 +1,40 @@
+model Model
+	culture: nl-NL
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+	sourceQueryCulture: nl-NL
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBIDesktopVersion = 2.142.928.0 (25.04)+de52df9f0bb74ad93a80d89c52d63fe6d07e0e1b
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["categorie","klant","produkt","verkoop","_Measures_base","Query1","Datum tabel","_Measures_layout","_Measures_DAX","Invoked Function"]
+
+annotation __TEdtr = 1
+
+annotation PBI_ProTooling = ["CalcGroup","DaxQueryView_Desktop","TMDLView_Desktop","DevMode"]
+
+ref table categorie
+ref table klant
+ref table produkt
+ref table verkoop
+ref table _Measures_base
+ref table _Field_param_product
+ref table 'Datum tabel'
+ref table _INFO_columns
+ref table _INFO_relationships
+ref table _INFO_tables
+ref table _INFO_measures
+ref table _Measures_layout
+ref table _Measures_DAX
+ref table 'Calc group Time intelligence'
+ref table 'Invoked Function'
+
+ref role 'klant jan'
+ref role 'Nieuwe rol'
+
+ref cultureInfo nl-NL
+

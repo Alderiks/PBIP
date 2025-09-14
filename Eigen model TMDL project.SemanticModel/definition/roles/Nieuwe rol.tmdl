@@ -1,0 +1,5 @@
+role 'Nieuwe rol'
+	modelPermission: read
+
+	annotation PBI_Id = 445c9e1163164fde972ef741c05a7b38
+
